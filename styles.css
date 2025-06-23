@@ -13,7 +13,11 @@ body{
     font-family: 'Lato';
     color: #333;
 }
-
+.imagenmaruja{
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+}
 .icon-cart{
     width: 40px;
     height: 40px;
@@ -89,12 +93,12 @@ header{
 }
 
 .titulo-producto-carrito{
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .precio-producto-carrito{
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 20px;
 }
 
@@ -124,33 +128,27 @@ header{
 }
 
 .cart-total h3{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 700;
 }
 
 .total-pagar{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 900;
 }
 
 .hidden-cart{
     display: none;
 }
-
-
-
-
 /* Main */
 .container-items{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
 }
-
 .item{
     border-radius: 10px;
 }
-
 .item:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
 }
