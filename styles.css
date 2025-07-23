@@ -180,10 +180,11 @@ header{
 .info-product button{
     border: none;
     background: none;
-    background-color: #000;
+    background-color: #d80dd1;
     color: #fff;
     padding: 15px 10px;
     cursor: pointer;
+    border-radius: 20px;
 } 
 .cart-empty{
     padding: 20px;
