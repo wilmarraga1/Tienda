@@ -186,6 +186,10 @@ header{
     cursor: pointer;
     border-radius: 20px;
 } 
+.info-product button:active{
+    background-color: #2348ec;
+    transition: all 0.8s ease;
+}
 .cart-empty{
     padding: 20px;
     text-align: center;
@@ -308,8 +312,8 @@ header{
     bottom: 10px;
     left: 20px;
     font-weight: 600;
-    font-size: 1.5rem;
-    color: #d80d0d;
+    font-size: 1.8rem;
+    color: #d80dd1;
     padding: 0.1rem 0;
     position: relative;
     transition: color 0.5s ease;
@@ -388,22 +392,6 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    }
-    .titulo-fist{
-    text-decoration: none;
-    text-transform: uppercase;
-    justify-content: center;
-    align-items: center;
-    top: 20px;
-    bottom: 20px;
-    left: 0;
-    font-weight: 600;
-    font-size: 1rem;
-    color: #d80d0d;
-    padding: 0.5rem 0;
-    position: relative;
-    cursor: pointer;
-    transition: color 0.5s ease;    
     }
     .cart-total
     {
