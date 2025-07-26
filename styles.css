@@ -10,8 +10,8 @@
 body{
     margin: 0 auto;
     max-width: 1200px;
-    font-family: 'Lato';
     color: #333;
+    font-family: "Coiny", system-ui;
 }
 .imagenmaruja{
     width: 85px;
@@ -189,6 +189,7 @@ header{
 .info-product button:active{
     background-color: #2348ec;
     transition: all 0.8s ease;
+    color: #d80dd1;
 }
 .cart-empty{
     padding: 20px;
@@ -234,9 +235,9 @@ header{
 .contacto {
     font-family: "Coiny", system-ui;
     font-style: normal;
-    background-color: #202020;
+    box-sizing: border-box;
     padding: 140px 0 100px;
-   color: #d80dd1;
+    color: #d80dd1;
     text-align: center;
 }
 
@@ -261,7 +262,7 @@ header{
 }
 
 .contacto .contenido-seccion .fila .col h2 {
-    color: white;
+    color: rgb(20, 3, 3);
 }
 .info-contacto a:hover{
      color: #fff;
@@ -296,6 +297,20 @@ header{
     width: 80%;
     height: auto;
   }
+  .info-product button{
+    border: none;
+    background: none;
+    background-color: #d80dd1;
+    color: #fff;
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+} 
+  .info-product button:active{
+    background-color: #2348ec;
+    transition: all 0.8s ease;
+    color: #d80dd1;
+}
     .container-items{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
