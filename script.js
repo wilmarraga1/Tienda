@@ -116,18 +116,7 @@ const showHTML = () => {
 	valorTotal.innerText = `$${total}`;
 	countProducts.innerText = totalOfProducts;
 };
-
-
-
-
-
 //paypal
-
-
-
-
-
-
 let cartTotal = 0;
 function addItemToCart(price){
 cartTotal += price;

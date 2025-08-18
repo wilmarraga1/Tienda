@@ -13,6 +13,10 @@ body{
     color: #333;
     font-family: "Coiny", system-ui;
 }
+.total-flotante{
+    color: #021776;
+    position: fixe;
+}
 .imagenmaruja{
     width: 85px;
     height: 85px;
@@ -62,7 +66,7 @@ header{
 }
 
 .container-cart-products{
-    position: absolute;
+    position: fixed;
     top: 50px;
     right: 0;
     background-color: #fff;
@@ -291,10 +295,23 @@ header{
     transition: .3s;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 820px) {
  img {
     width: 80%;
     height: auto;
+  }
+  .count-products{
+    position: absolute;
+    top: 12%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%
   }
   .info-product button{
     border: none;
@@ -415,13 +432,14 @@ header{
     padding: 13px 2px;
     gap: 1px;
     }
+  
     .container-cart-products {
     position: absolute;
-    top: 50px;
+    top: 0px;
     background-color: #fff;
-    font-size: 2rem;
-    width: 382px;
-    right: -4px;
+    font-size: 1rem;
+    width: 360px;
+    right: -2px;
     z-index: 1;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
     border-radius: 20px;
